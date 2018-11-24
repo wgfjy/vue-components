@@ -45,7 +45,7 @@ export default {
     }
   },
   watch: {
-    value(bool) {
+    value (bool) {
       this.start = bool
       if (!bool) {
         // window.clearInterval(this.timer)
@@ -76,7 +76,7 @@ export default {
     },
     countingDown () {
       const lastSecond = this.lastSecond
-      let second = lastSecond ? lastSecond : this.duration
+      let second = lastSecond || this.duration
       if (this.storageKey) {
         const runSecond = Date.now() + second * 1000
         window.sessionStorage.setItem(this.storageKey, runSecond)

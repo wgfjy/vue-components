@@ -16,6 +16,11 @@ export default new Router({
       path: '/sendcode',
       name: 'sendcode',
       component: () => import('@/views/sendcode')
+    },
+    {
+      path: '/rollnotice',
+      name: 'rollnotice',
+      component: () => import('@/views/rollnotice')
     }
   ]
 })
