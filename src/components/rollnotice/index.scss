@@ -1,0 +1,25 @@
+.rollnotice {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  &__content {
+    height: inherit;
+  }
+  &__align {
+    &-left {
+      justify-content: flex-start
+    }
+    &-center {
+      justify-content: center
+    }
+    &-right {
+      justify-content: flex-end
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: inherit;
+    height: inherit;
+  }
+}
