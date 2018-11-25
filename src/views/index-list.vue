@@ -3,6 +3,7 @@
     <ul>
       <li><router-link :to="{name: 'sendcode'}">Sendcode 发送验证码</router-link></li>
       <li><router-link :to="{name: 'rollnotice'}">Rollnotice 滚动公告</router-link></li>
+      <li><router-link :to="{name: 'collapse'}">Collapse 折叠面板</router-link></li>
     </ul>
   </div>
 </template>

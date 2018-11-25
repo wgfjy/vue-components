@@ -21,6 +21,11 @@ export default new Router({
       path: '/rollnotice',
       name: 'rollnotice',
       component: () => import('@/views/rollnotice')
+    },
+    {
+      path: '/collapse',
+      name: 'collapse',
+      component: () => import('@/views/collapse')
     }
   ]
 })
