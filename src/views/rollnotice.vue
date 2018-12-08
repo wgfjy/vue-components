@@ -5,7 +5,7 @@
       <img src="//m.360buyimg.com/mobilecms/jfs/t14752/82/2574581467/6535/c8158ace/5aa8935bN94e31ff6.jpg.dpg" class="jd">
       <rollnotice>
         <rollnotice-item>
-          <a href="javascript:;"><span class="red">HOT</span>电信、联通相继公布5G资费：5毛10G，移动迟迟不表态</a>
+          <a href="javascript:;"><span class="red">HOT</span>电信、联通</a>
         </rollnotice-item>
         <rollnotice-item>
           <a href="javascript:;"><span class="red">推荐</span>为让路麒麟980，华为麒麟970大放血，买旧不买新没错</a>
@@ -31,6 +31,11 @@ export default {
     NavBar,
     Rollnotice,
     RollnoticeItem
+  },
+  methods: {
+    handleChange (index) {
+      console.log(index)
+    }
   }
 }
 </script>

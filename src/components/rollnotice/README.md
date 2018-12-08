@@ -25,7 +25,7 @@
 | ---- | ---- | ---- | ---- | ---- |
 | height | 高度（px） | Number | - | 40 |
 | speed | 切换速度（毫秒） | Number | - | 300 |
-| duration | 自动播放时间（毫秒） | Number | - | 4000 |
+| auto | 自动播放时间（毫秒） | Number | - | 4000 |
 | align | 对齐方式 | String | left, center, right | left |
 | direction | 滚动方向 | String | up, down | up |
 
@@ -34,6 +34,12 @@
 | name | 描述 |
 | ---- | ---- |
 | - | 内容 |
+
+### Rollnotice Event
+
+| 名称 | 返回值 |
+| ---- | ---- |
+| on-change | index: Number |
 
 ### RollnoticeItem Slots
 
